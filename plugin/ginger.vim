@@ -19,7 +19,7 @@ function! s:ginger(text)
     endif
     echohl WarningMsg
     echon a:text[from : to]
-	echohl None
+    echohl None
     let correct .= rs['Suggestions'][0]['Text']
     let i = to + 1
   endfor
